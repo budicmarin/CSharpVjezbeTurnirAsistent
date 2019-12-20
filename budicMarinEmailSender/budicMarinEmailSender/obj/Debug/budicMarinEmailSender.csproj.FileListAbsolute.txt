@@ -1,0 +1,7 @@
+C:\Users\Marin\source\repos\budicMarinEmailSender\budicMarinEmailSender\bin\Debug\budicMarinEmailSender.exe.config
+C:\Users\Marin\source\repos\budicMarinEmailSender\budicMarinEmailSender\bin\Debug\budicMarinEmailSender.exe
+C:\Users\Marin\source\repos\budicMarinEmailSender\budicMarinEmailSender\bin\Debug\budicMarinEmailSender.pdb
+C:\Users\Marin\source\repos\budicMarinEmailSender\budicMarinEmailSender\obj\Debug\budicMarinEmailSender.csprojAssemblyReference.cache
+C:\Users\Marin\source\repos\budicMarinEmailSender\budicMarinEmailSender\obj\Debug\budicMarinEmailSender.csproj.CoreCompileInputs.cache
+C:\Users\Marin\source\repos\budicMarinEmailSender\budicMarinEmailSender\obj\Debug\budicMarinEmailSender.exe
+C:\Users\Marin\source\repos\budicMarinEmailSender\budicMarinEmailSender\obj\Debug\budicMarinEmailSender.pdb
