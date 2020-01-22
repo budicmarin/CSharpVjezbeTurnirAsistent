@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dodavanje_ekipe));
             this.ime_ekipe = new System.Windows.Forms.TextBox();
             this.Turnir = new System.Windows.Forms.Label();
             this.ime_turnira = new System.Windows.Forms.Label();
@@ -54,7 +55,7 @@
             this.Turnir.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Turnir.Location = new System.Drawing.Point(13, 25);
             this.Turnir.Name = "Turnir";
-            this.Turnir.Size = new System.Drawing.Size(115, 39);
+            this.Turnir.Size = new System.Drawing.Size(111, 38);
             this.Turnir.TabIndex = 1;
             this.Turnir.Text = "Turnir:";
             // 
@@ -64,7 +65,7 @@
             this.ime_turnira.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ime_turnira.Location = new System.Drawing.Point(134, 25);
             this.ime_turnira.Name = "ime_turnira";
-            this.ime_turnira.Size = new System.Drawing.Size(134, 39);
+            this.ime_turnira.Size = new System.Drawing.Size(129, 38);
             this.ime_turnira.TabIndex = 2;
             this.ime_turnira.Text = "<turnir>";
             // 
@@ -150,6 +151,7 @@
             this.Controls.Add(this.ime_turnira);
             this.Controls.Add(this.Turnir);
             this.Controls.Add(this.ime_ekipe);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Dodavanje_ekipe";
             this.Text = "Dodavanje_ekipe";
             this.ResumeLayout(false);

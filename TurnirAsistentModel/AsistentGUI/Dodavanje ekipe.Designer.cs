@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PregledTurnira));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.textToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.stvaranje_turnira = new System.Windows.Forms.Label();
@@ -151,6 +152,7 @@
             this.Controls.Add(this.ime_turn);
             this.Controls.Add(this.ime_turnira);
             this.Controls.Add(this.stvaranje_turnira);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PregledTurnira";
             this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);

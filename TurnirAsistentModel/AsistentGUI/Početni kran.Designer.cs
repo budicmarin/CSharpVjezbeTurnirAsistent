@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PrijavaTurnir));
             this.Zapocni = new System.Windows.Forms.Button();
             this.Novi = new System.Windows.Forms.Button();
             this.Izaberi = new System.Windows.Forms.ComboBox();
@@ -67,6 +68,7 @@
             this.Controls.Add(this.Izaberi);
             this.Controls.Add(this.Novi);
             this.Controls.Add(this.Zapocni);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PrijavaTurnir";
             this.Text = "PrijavaTurnir";
             this.ResumeLayout(false);
