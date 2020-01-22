@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace AsistentGUI
 {
-    public partial class PrijavaTurnir : Form
+    public partial class Stvaranje_ekipe : Form
     {
-        public PrijavaTurnir()
+        public Stvaranje_ekipe()
         {
             InitializeComponent();
         }
 
-        private void Ime_turnira_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Turnir_Click(object sender, EventArgs e)
+        private void Label3_Click(object sender, EventArgs e)
         {
 
         }

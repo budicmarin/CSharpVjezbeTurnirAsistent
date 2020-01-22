@@ -32,6 +32,7 @@
             this.Zapocni = new System.Windows.Forms.Button();
             this.Novi = new System.Windows.Forms.Button();
             this.Izaberi = new System.Windows.Forms.ComboBox();
+            this.ime_app = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Zapocni
@@ -60,11 +61,22 @@
             this.Izaberi.Size = new System.Drawing.Size(274, 24);
             this.Izaberi.TabIndex = 2;
             // 
+            // ime_app
+            // 
+            this.ime_app.AutoSize = true;
+            this.ime_app.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ime_app.Location = new System.Drawing.Point(267, 68);
+            this.ime_app.Name = "ime_app";
+            this.ime_app.Size = new System.Drawing.Size(276, 46);
+            this.ime_app.TabIndex = 3;
+            this.ime_app.Text = "Turnir Asistent";
+            // 
             // PrijavaTurnir
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ime_app);
             this.Controls.Add(this.Izaberi);
             this.Controls.Add(this.Novi);
             this.Controls.Add(this.Zapocni);
@@ -72,6 +84,7 @@
             this.Name = "PrijavaTurnir";
             this.Text = "PrijavaTurnir";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -80,5 +93,6 @@
         private System.Windows.Forms.Button Zapocni;
         private System.Windows.Forms.Button Novi;
         private System.Windows.Forms.ComboBox Izaberi;
+        private System.Windows.Forms.Label ime_app;
     }
 }
