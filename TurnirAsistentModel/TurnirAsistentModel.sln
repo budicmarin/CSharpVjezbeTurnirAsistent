@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurnirAsistentModel", "TurnirAsistentModel\TurnirAsistentModel.csproj", "{560921E3-62C4-48E4-A782-41E9248EB4D7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "budicMarinWindowsForm", "budicMarinWindowsForm\budicMarinWindowsForm.csproj", "{9CACCAF9-0356-4988-8F3F-A1E414007FD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{560921E3-62C4-48E4-A782-41E9248EB4D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{560921E3-62C4-48E4-A782-41E9248EB4D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{560921E3-62C4-48E4-A782-41E9248EB4D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CACCAF9-0356-4988-8F3F-A1E414007FD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CACCAF9-0356-4988-8F3F-A1E414007FD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CACCAF9-0356-4988-8F3F-A1E414007FD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CACCAF9-0356-4988-8F3F-A1E414007FD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
