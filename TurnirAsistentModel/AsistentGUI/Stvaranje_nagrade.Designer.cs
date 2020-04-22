@@ -38,6 +38,7 @@
             this.textBoxImeNagrade = new System.Windows.Forms.TextBox();
             this.textBoxKolicina = new System.Windows.Forms.TextBox();
             this.textBoxPostotakNagrade = new System.Windows.Forms.TextBox();
+            this.btnUnesiNagradu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ime_nagrade
@@ -49,6 +50,7 @@
             this.ime_nagrade.Size = new System.Drawing.Size(344, 46);
             this.ime_nagrade.TabIndex = 4;
             this.ime_nagrade.Text = "Stvaranje nagrade";
+            this.ime_nagrade.Click += new System.EventHandler(this.Ime_nagrade_Click);
             // 
             // broj_mjesta
             // 
@@ -106,6 +108,7 @@
             this.textBoxBrojNagrade.Name = "textBoxBrojNagrade";
             this.textBoxBrojNagrade.Size = new System.Drawing.Size(157, 22);
             this.textBoxBrojNagrade.TabIndex = 10;
+            this.textBoxBrojNagrade.TextChanged += new System.EventHandler(this.TextBoxBrojNagrade_TextChanged);
             // 
             // textBoxImeNagrade
             // 
@@ -120,6 +123,7 @@
             this.textBoxKolicina.Name = "textBoxKolicina";
             this.textBoxKolicina.Size = new System.Drawing.Size(157, 22);
             this.textBoxKolicina.TabIndex = 12;
+            this.textBoxKolicina.Text = "0";
             // 
             // textBoxPostotakNagrade
             // 
@@ -127,12 +131,24 @@
             this.textBoxPostotakNagrade.Name = "textBoxPostotakNagrade";
             this.textBoxPostotakNagrade.Size = new System.Drawing.Size(158, 22);
             this.textBoxPostotakNagrade.TabIndex = 13;
+            this.textBoxPostotakNagrade.Text = "0";
+            // 
+            // btnUnesiNagradu
+            // 
+            this.btnUnesiNagradu.Location = new System.Drawing.Point(182, 367);
+            this.btnUnesiNagradu.Name = "btnUnesiNagradu";
+            this.btnUnesiNagradu.Size = new System.Drawing.Size(184, 43);
+            this.btnUnesiNagradu.TabIndex = 14;
+            this.btnUnesiNagradu.Text = "Unesi nagradu";
+            this.btnUnesiNagradu.UseVisualStyleBackColor = true;
+            this.btnUnesiNagradu.Click += new System.EventHandler(this.BtnUnesiNagradu_Click);
             // 
             // Stvaranje_nagrade
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnUnesiNagradu);
             this.Controls.Add(this.textBoxPostotakNagrade);
             this.Controls.Add(this.textBoxKolicina);
             this.Controls.Add(this.textBoxImeNagrade);
@@ -162,5 +178,6 @@
         private System.Windows.Forms.TextBox textBoxImeNagrade;
         private System.Windows.Forms.TextBox textBoxKolicina;
         private System.Windows.Forms.TextBox textBoxPostotakNagrade;
+        private System.Windows.Forms.Button btnUnesiNagradu;
     }
 }

@@ -115,5 +115,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\TurnirAsistentModel\TurnirAsistentModel\TurnirAsistentModel.csproj">
+      <Project>{560921e3-62c4-48e4-a782-41e9248eb4d7}</Project>
+      <Name>TurnirAsistentModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

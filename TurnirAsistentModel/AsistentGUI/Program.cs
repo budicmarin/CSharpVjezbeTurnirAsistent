@@ -16,7 +16,9 @@ namespace AsistentGUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PregledTurnira());
+            TurnirAsistentModel.GlobalConfig.InitalizeConnectins(true, false);
+                Application.Run(new Stvaranje_nagrade());
+            // Application.Run(new PrijavaTurnir());
         }
     }
 }

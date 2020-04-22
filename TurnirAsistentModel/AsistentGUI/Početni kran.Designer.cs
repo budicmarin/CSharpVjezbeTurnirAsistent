@@ -83,6 +83,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "PrijavaTurnir";
             this.Text = "PrijavaTurnir";
+            this.Load += new System.EventHandler(this.PrijavaTurnir_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

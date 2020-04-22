@@ -26,5 +26,10 @@ namespace AsistentGUI
         {
 
         }
+
+        private void PrijavaTurnir_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
