@@ -37,10 +37,9 @@ namespace AsistentGUI
                     textBoxBrojNagrade.Text,
                     textBoxKolicina.Text,
                     textBoxPostotakNagrade.Text);
-                foreach(IDataConetcion db in GlobalConfig.Connections)
-                {
-                    db.CreatePrize(model);
-                }
+                
+                GlobalConfig.Connection.CreatePrize(model);
+                
                 textBoxImeNagrade.Text = "";
                 textBoxBrojNagrade.Text = "";
                 textBoxKolicina.Text = "0";
@@ -88,6 +87,11 @@ namespace AsistentGUI
         }
 
         private void TextBoxBrojNagrade_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Stvaranje_nagrade_Load(object sender, EventArgs e)
         {
 
         }

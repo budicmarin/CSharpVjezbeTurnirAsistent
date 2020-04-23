@@ -161,6 +161,7 @@
             this.Controls.Add(this.ime_nagrade);
             this.Name = "Stvaranje_nagrade";
             this.Text = "Stvaranje_nagrade";
+            this.Load += new System.EventHandler(this.Stvaranje_nagrade_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
